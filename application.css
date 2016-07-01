@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: SlateGrey;
+}
+      
+#map {
+  width: 100%;
+  height: 50%;
+}
+
+#black-box {
+  height: 50%;
+}
+
+.image-box {
+  float: left;
+  background: #CC0000;
+  height: 90%;
+  width: 30%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+}
