@@ -4,14 +4,23 @@ html, body {
   padding: 0;
   background-color: SlateGrey;
 }
-      
+
+#wrop {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 #map {
   width: 100%;
   height: 50%;
 }
 
 #black-box {
+  padding-top: 1em;
   height: 50%;
+  width: 125%;
+  overflow: hidden;
 }
 
 .image-box {
