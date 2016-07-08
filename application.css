@@ -2,12 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: SlateGrey;
-}
-
-#wrop {
-  height: 100%;
-  width: 100%;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -17,19 +12,33 @@ html, body {
 }
 
 #black-box {
-  padding-top: 1em;
   height: 50%;
-  width: 125%;
   overflow: hidden;
 }
 
-.image-box {
-  float: left;
-  background: #CC0000;
-  height: 90%;
-  width: 30%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-  margin-left: 2.5%;
-  margin-bottom: 2.5%;
+.row {
+  display: block;
+  white-space: nowrap;
+}
+
+.row > img {
+  vertical-align: top;
+  margin-top: 2px;
+  margin-right: 2px;
+  width: 140px;
+  height: 140px;
+  display: inline;
+}
+
+.transition {
+  transition: all 2s;
+}
+
+.fast {
+  margin-top: 100%;
+  transition: all 0.72s;
+}
+
+.hidden {
+  margin-left: 110%;
 }
